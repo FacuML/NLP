@@ -1,47 +1,55 @@
-# Trabajos Prácticos de Inteligencia Artificial - 2025
-Este repositorio contiene los trabajos prácticos desarrollados en el marco de la materia Inteligencia Artificial, correspondientes al primer cuatrimestre de 2025. Cada TP aborda distintos conceptos clave de IA mediante ejercicios prácticos en notebooks de Jupyter.
+# Procesamiento de Lenguaje Natural - Trabajos Prácticos (IA 2025)
+Este repositorio contiene tres notebooks desarrollados como trabajos prácticos de la materia Inteligencia Artificial, enfocados en tareas de Procesamiento de Lenguaje Natural (PLN) y Web Scraping, utilizando Python y librerías especializadas.
 
-# Contenido
-📘 TP 1 - Introducción a la IA y Problemas de Búsqueda
-Resolución de problemas mediante búsqueda no informada e informada.
+# 📂 Contenido
+## TP 1 - Extracción y Limpieza de Texto Web
+Web scraping de sitios de letras de canciones.
 
-Implementación de algoritmos como BFS, DFS y A*.
+Uso de requests y BeautifulSoup para obtener títulos y letras.
 
-Modelado de espacios de estados y funciones heurísticas.
+Almacenamiento de datos en un DataFrame con pandas.
 
-Análisis de desempeño y eficiencia de búsqueda.
+Preparación del texto para su análisis posterior.
 
-📗 TP 2 - Juegos y Minimax
-Implementación del algoritmo Minimax con y sin poda alfa-beta.
+## TP 2 - Análisis Lingüístico con spaCy y NLTK
+Descarga e integración del modelo es_core_news_lg de spaCy.
 
-Aplicación a juegos de tablero como el tatetí (tic-tac-toe).
+Procesamiento del texto: tokenización, lematización, etiquetado POS, parsing y reconocimiento de entidades.
 
-Evaluación de heurísticas de evaluación y profundidad.
+Visualización con displacy.
 
-Simulación de partidas entre agentes.
+Generación de nubes de palabras con WordCloud.
 
-📙 TP 3 - Aprendizaje Automático
-Introducción al aprendizaje supervisado.
+Uso de nltk para manejo de stopwords en español.
 
-Uso de scikit-learn para clasificación y regresión.
+## TP 3 - Pipeline completo de PLN
+Extracción de letras musicales desde sitios web.
 
-Entrenamiento y evaluación de modelos (Árboles de decisión, k-NN, Regresión logística).
+Limpieza extensiva del texto (remoción de etiquetas HTML, signos de puntuación, etc).
 
-Validación cruzada y análisis de métricas de desempeño.
+Análisis completo con spaCy:
 
-# Requisitos
-Para correr los notebooks se recomienda tener instalado:
+Tokens y lemas.
 
-Python 3.8+
+Entidades nombradas.
 
-Jupyter Notebook o Jupyter Lab
+Análisis sintáctico.
 
-# Bibliotecas:
+Visualización de resultados: nube de palabras, entidades, dependencias gramaticales.
 
-numpy
+Uso combinado de pandas, matplotlib, nltk, PIL y Counter.
 
-pandas
+# 🛠️ Tecnologías Utilizadas
+Python 3
 
-matplotlib
+Jupyter Notebook
 
-scikit-learn
+spaCy
+
+BeautifulSoup
+
+NLTK
+
+WordCloud
+
+pandas, matplotlib, numpy, PIL, requests, re
