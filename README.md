@@ -22,7 +22,7 @@ Generación de nubes de palabras con WordCloud.
 
 Uso de nltk para manejo de stopwords en español.
 
-## TP 3 - Pipeline completo de PLN
+## 1era Evaluacion
 Extracción de letras musicales desde sitios web.
 
 Limpieza extensiva del texto (remoción de etiquetas HTML, signos de puntuación, etc).
